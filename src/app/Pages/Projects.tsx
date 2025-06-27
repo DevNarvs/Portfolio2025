@@ -1,4 +1,4 @@
-import Card from '../Components/Card';
+import Image from 'next/image';
 import { MiniProject, ProjectList } from '../Components/Props';
 
 export default function Projects() {
@@ -19,7 +19,7 @@ export default function Projects() {
                 className="w-full max-w-4xl bg-zinc-900 rounded-xl overflow-hidden shadow-lg hover:shadow-white/30 transform hover:scale-[1.01] transition-all duration-300 border border-zinc-800 flex flex-col sm:flex-row"
               >
                 <div className="sm:w-1/2 w-full h-60 sm:h-auto">
-                  <img
+                  <Image
                     src={project.img}
                     alt={project.name}
                     className="w-full h-full object-cover"
@@ -61,7 +61,7 @@ export default function Projects() {
                 className="w-full max-w-4xl bg-zinc-900 rounded-xl overflow-hidden shadow-lg hover:shadow-white/30 transform hover:scale-[1.01] transition-all duration-300 border border-zinc-800 flex flex-col sm:flex-row"
               >
                 <div className="sm:w-1/2 w-full h-60 sm:h-auto">
-                  <img
+                  <Image
                     src={project.img}
                     alt={project.name}
                     className="w-full h-full object-cover"
