@@ -22,6 +22,8 @@ export default function Projects() {
                   <Image
                     src={project.img}
                     alt={project.name}
+                    width={500}
+                    height={500}
                     className="w-full h-full object-cover"
                   />
                 </div>
@@ -64,6 +66,8 @@ export default function Projects() {
                   <Image
                     src={project.img}
                     alt={project.name}
+                    width={1000}
+                    height={1000}
                     className="w-full h-full object-cover"
                   />
                 </div>

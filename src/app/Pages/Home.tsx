@@ -7,8 +7,10 @@ export default function Home() {
         {/* LEFT SIDE: IMAGE */}
         <div className="flex justify-center">
           <Image
-            src="/Img/hirako.jpg"
+            src="/Img/narvspic.png"
             alt="Developer"
+            width={500}
+            height={500}
             className="w-full max-w-sm md:max-w-md lg:max-w-lg"
           />
         </div>
@@ -35,7 +37,13 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Image src="/Img/IconDownload.svg" alt="Resume" className="w-7 h-7" />
+              <Image
+                src="/Img/IconDownload.svg"
+                alt="Resume"
+                width={500}
+                height={500}
+                className="w-7 h-7"
+              />
               Resume
             </a>
             <a
@@ -44,7 +52,13 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Image src="/Img/contact.svg" alt="Contact" className="w-5 h-5 mr-3" />
+              <Image
+                src="/Img/contact.svg"
+                alt="Contact"
+                width={500}
+                height={500}
+                className="w-5 h-5 mr-3"
+              />
               Contact Me
             </a>
           </div>
