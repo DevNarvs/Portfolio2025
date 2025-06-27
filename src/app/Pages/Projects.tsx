@@ -1,5 +1,4 @@
 import Card from '../Components/Card';
-import ParticlesBackground from '../Components/ParticlesBackground';
 import { MiniProject, ProjectList } from '../Components/Props';
 
 export default function Projects() {
@@ -9,9 +8,6 @@ export default function Projects() {
         id="projects"
         className="relative py-20 bg-black text-white px-4 sm:px-10 overflow-hidden"
       >
-        {/* Particles background */}
-        {/* <ParticlesBackground /> */}
-
         {/* Section content */}
         <div className="relative z-10 max-w-6xl mx-auto">
           <h2 className="text-4xl font-bold mb-12 text-center tracking-wide">My Projects</h2>
