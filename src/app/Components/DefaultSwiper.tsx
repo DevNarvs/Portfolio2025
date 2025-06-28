@@ -1,8 +1,9 @@
 'use client';
 
-import React, { useState } from 'react';
+import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
+import Image from 'next/image';
 
 const images = [
   {
@@ -60,7 +61,7 @@ export default function SwiperGallery() {
         {images.map(({ id, src, alt }) => (
           <SwiperSlide key={id} style={{ width: 'auto' }}>
             <div className="relative rounded-3xl overflow-hidden shadow-lg cursor-pointer hover:shadow-2xl transition-shadow duration-300">
-              <img
+              <Image
                 src={src}
                 alt={alt}
                 className="object-cover h-60 md:h-72 xl:h-80 w-auto select-none"

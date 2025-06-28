@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 interface ICard {
   title: string;
   path?: string;
@@ -14,7 +16,7 @@ const Card: React.FC<ICard> = ({ title, path }) => {
             isInlineSvg ? (
               <div dangerouslySetInnerHTML={{ __html: path }} />
             ) : (
-              <img src={path} alt={title} className="h-full object-contain" />
+              <Image src={path} alt={title} className="h-full object-contain" />
             )
           ) : (
             <span className="text-gray-500 text-xs">No icon</span>

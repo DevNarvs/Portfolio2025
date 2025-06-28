@@ -1,4 +1,3 @@
-import DefaultSwiper from './Components/DefaultSwiper';
 import Footer from './Components/Footer';
 import Navbar from './Components/navbar';
 import Home from './Pages/Home';
