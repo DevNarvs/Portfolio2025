@@ -2,7 +2,7 @@ import Link from 'next/link';
 import GlowingButton from './GlowingButton';
 
 const navBarList = [
-  { name: 'Home', href: '/' },
+  { name: 'Home', href: '/home' },
   { name: 'Projects', href: 'projects' },
   { name: 'Technologies', href: 'technologies' },
 ];

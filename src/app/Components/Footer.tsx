@@ -8,7 +8,7 @@ const Footer = () => {
         </p>
         <div className="flex gap-4">
           <a
-            href="https://github.com/yourprofile"
+            href="https://github.com/DevNarvs"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-white transition"
@@ -16,14 +16,14 @@ const Footer = () => {
             GitHub
           </a>
           <a
-            href="https://linkedin.com/in/yourprofile"
+            href="https://www.linkedin.com/in/narvin-achacoso-a69a27320/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-white transition"
           >
             LinkedIn
           </a>
-          <a href="mailto:you@example.com" className="hover:text-white transition">
+          <a href="mailto:achacosonarvin@gmail.com" className="hover:text-white transition">
             Email
           </a>
         </div>

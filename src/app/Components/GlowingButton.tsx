@@ -9,7 +9,8 @@ export default function GlowingButton() {
 
         {/* Actual button */}
         <Link
-          href="/resume.pdf"
+          href="/Img/Resume.pdf"
+          target="_blank"
           className="relative z-10 inline-flex items-center gap-2 px-4 py-2 rounded-md border border-white text-white font-[family-name:var(--font-geist-mono)] backdrop-blur-sm hover:bg-white hover:text-black hover:border-white/30 transition cursor-pointer"
         >
           <svg

@@ -10,9 +10,11 @@ export default function Projects() {
       >
         {/* Section content */}
         <div className="relative z-10 max-w-6xl mx-auto">
-          <h2 className="text-4xl font-bold mb-12 text-center tracking-wide">My Projects</h2>
+          <h2 className="text-4xl font-bold mb-12 text-center tracking-wide font-[family-name:var(--font-geist-mono)]">
+            My Projects
+          </h2>
 
-          <div className="flex flex-col items-center gap-12">
+          <div className="flex flex-col items-center gap-12 select-none">
             {ProjectList.map((project, index) => (
               <div
                 key={index}
@@ -52,11 +54,11 @@ export default function Projects() {
             ))}
           </div>
 
-          <h2 className="mt-12 text-4xl font-bold mb-12 text-center tracking-wide">
+          <h2 className="mt-12 text-4xl font-bold mb-12 text-center tracking-wide font-[family-name:var(--font-geist-mono)]">
             Mini Projects
           </h2>
 
-          <div className="flex flex-col items-center gap-12">
+          <div className="flex flex-col items-center gap-12 select-none">
             {MiniProject.map((project, index) => (
               <div
                 key={index}
